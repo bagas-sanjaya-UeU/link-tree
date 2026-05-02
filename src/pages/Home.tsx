@@ -109,13 +109,12 @@ export default function Home() {
         <header className="profile-head">
           <div className="avatar-ring">
             <img
-              src="https://ui-avatars.com/api/?name=My+Links&background=random"
+              src="https://ui-avatars.com/api/?name=Charderra&background=random"
               alt="Profile"
               className="avatar"
             />
           </div>
-          <p className="profile-tag">Creator Space</p>
-          <h2 className="profile-title">My Links</h2>
+          <h2 className="profile-title">My Links Tree</h2>
           <p className="profile-subtitle">Welcome to my profile!</p>
         </header>
 
@@ -140,6 +139,10 @@ export default function Home() {
             </div>
           )}
         </div>
+        
+        <footer style={{ textAlign: 'center', marginTop: '2rem', padding: '1rem', color: '#888', fontSize: '0.875rem' }}>
+          Build by Charderra
+        </footer>
       </div>
     </div>
   );
